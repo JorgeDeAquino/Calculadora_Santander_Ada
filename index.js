@@ -57,3 +57,11 @@ function calculateResult() {
 function updateDisplay(value) {
     document.getElementById('result').value = value;
 }
+
+// Função para limpar o visor e resetar os valores
+function clearResult() {
+    currentInput = '';
+    previousInput = '';
+    operation = null;
+    updateDisplay('');
+}
